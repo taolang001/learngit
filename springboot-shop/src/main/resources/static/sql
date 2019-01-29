@@ -1,0 +1,37 @@
+--it商城用户表
+create table IT_SHOP_USER(
+     ID           NUMBER(10)  not null,
+     NAME         VARCHAR2(8),
+     GENDER       VARCHAR2(10),
+     BIRTHDAY     DATE,
+     ADDRESS      varchar2(20),
+     CREATEDATE   DATE,
+     CREATEBY     VARCHAR2(8)
+);
+--添加主键索引
+alter table it_shop_user add constraint pk_it_shop_user_id primary key(id);
+--添加序列
+create sequence it_shop_user_id_seq
+start with 1
+increment by 1
+nomaxvalue
+nominvalue
+nocycle
+nocache;
+--添加注释
+COMMENT ON TABLE IT_SHOP_USER
+        IS 'it商城用户表';
+COMMENT ON COLUMN IT_SHOP_USER.ID
+        IS '主键ID';
+COMMENT ON COLUMN IT_SHOP_USER.NAME
+        IS '用户姓名';
+COMMENT ON COLUMN IT_SHOP_USER.GENDER
+        IS '性别';
+COMMENT ON COLUMN IT_SHOP_USER.BIRTHDAY
+        IS '出生日期';
+COMMENT ON COLUMN IT_SHOP_USER.ADDRESS
+        IS '家庭住址';
+COMMENT ON COLUMN IT_SHOP_USER.CREATEDATE
+        IS '创建时间';
+COMMENT ON COLUMN IT_SHOP_USER.CREATEBY
+        IS '创建人';

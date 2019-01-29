@@ -1,0 +1,295 @@
+2019-01-28 14:48:45.824 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 8752 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 14:48:45.834 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 14:48:46.706 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 14:48:46.711 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 14:48:46.738 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-01-28 14:48:47.147 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b0f98c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 14:48:47.577 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 14:48:47.593 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 14:48:47.603 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 14:48:47.604 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 14:48:47.614 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 14:48:47.763 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 14:48:47.764 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1862 ms
+2019-01-28 14:48:48.672 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 14:48:49.135 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 14:48:49.171 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 14:48:49.188 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 14:48:49.211 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 14:48:49.216 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 4.296 seconds (JVM running for 6.916)
+2019-01-28 14:49:08.661 - INFO  [nio-8081-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 14:49:08.662 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 14:49:08.672 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 10 ms
+2019-01-28 14:49:08.704 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 14:49:08.708 - WARN  [nio-8081-exec-1] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 14:49:08.844 - INFO  [nio-8081-exec-1] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 14:49:08.849 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 14:53:49.676 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 10264 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 14:53:49.688 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 14:53:50.542 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 14:53:50.547 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 14:53:50.576 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-01-28 14:53:51.000 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da143b41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 14:53:51.401 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 14:53:51.418 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 14:53:51.430 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 14:53:51.431 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 14:53:51.442 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 14:53:51.594 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 14:53:51.595 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1844 ms
+2019-01-28 14:53:52.485 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 14:53:52.910 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 14:53:52.940 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 14:53:52.952 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 14:53:52.972 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 14:53:52.977 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 4.403 seconds (JVM running for 6.651)
+2019-01-28 14:54:01.453 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 14:54:01.453 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 14:54:01.465 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2019-01-28 14:54:01.512 - INFO  [nio-8081-exec-2] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 14:54:01.518 - WARN  [nio-8081-exec-2] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 14:54:01.690 - INFO  [nio-8081-exec-2] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 14:54:01.696 - INFO  [nio-8081-exec-2] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 14:58:33.325 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 84 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 14:58:33.336 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 14:58:34.319 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 14:58:34.326 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 14:58:34.361 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-01-28 14:58:34.790 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b25719b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 14:58:35.221 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 14:58:35.238 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 14:58:35.248 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 14:58:35.249 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 14:58:35.257 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 14:58:35.425 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 14:58:35.425 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1957 ms
+2019-01-28 14:58:36.147 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 14:58:36.549 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 14:58:36.580 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 14:58:36.595 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 14:58:36.618 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 14:58:36.623 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 4.171 seconds (JVM running for 6.48)
+2019-01-28 14:58:39.170 - INFO  [nio-8081-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 14:58:39.170 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 14:58:39.181 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2019-01-28 14:58:39.213 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 14:58:39.216 - WARN  [nio-8081-exec-1] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 14:58:39.353 - INFO  [nio-8081-exec-1] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 14:58:39.358 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 15:00:21.802 - WARN  [l-1 housekeeper] c.z.h.p.HikariPool$HouseKeeper : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s741ms337µs283ns).
+2019-01-28 15:00:51.805 - WARN  [l-1 housekeeper] c.z.h.p.HikariPool$HouseKeeper : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s603ms986µs516ns).
+2019-01-28 15:02:15.506 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 3348 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 15:02:15.526 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 15:02:16.939 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 15:02:16.946 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 15:02:17.001 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-01-28 15:02:17.729 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bfffeda5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 15:02:18.465 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 15:02:18.493 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:02:18.515 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 15:02:18.517 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 15:02:18.534 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 15:02:18.828 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 15:02:18.828 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3184 ms
+2019-01-28 15:02:20.134 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 15:02:20.895 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 15:02:20.946 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:02:20.973 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 15:02:21.011 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 15:02:21.019 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 6.663 seconds (JVM running for 10.531)
+2019-01-28 15:02:24.029 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 15:02:24.030 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 15:02:24.048 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Completed initialization in 18 ms
+2019-01-28 15:02:24.116 - INFO  [nio-8081-exec-2] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 15:02:24.122 - WARN  [nio-8081-exec-2] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 15:02:24.366 - INFO  [nio-8081-exec-2] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 15:02:24.375 - INFO  [nio-8081-exec-2] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 15:02:51.905 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 7896 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 15:02:51.914 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 15:02:52.913 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 15:02:52.923 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 15:02:52.966 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-01-28 15:02:53.345 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3a82f53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 15:02:53.730 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 15:02:53.746 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:02:53.757 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 15:02:53.758 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 15:02:53.766 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 15:02:53.899 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 15:02:53.900 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1920 ms
+2019-01-28 15:02:54.632 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 15:02:55.027 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 15:02:55.073 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:02:55.086 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 15:02:55.106 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 15:02:55.110 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 3.752 seconds (JVM running for 7.591)
+2019-01-28 15:13:08.558 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 6268 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 15:13:08.570 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 15:13:09.470 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 15:13:09.475 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 15:13:09.502 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-01-28 15:13:09.884 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76957a4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 15:13:10.277 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 15:13:10.293 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:13:10.305 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 15:13:10.306 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 15:13:10.315 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 15:13:10.474 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 15:13:10.475 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1819 ms
+2019-01-28 15:13:11.235 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 15:13:11.639 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 15:13:11.672 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:13:11.687 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 15:13:11.708 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 15:13:11.713 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 3.893 seconds (JVM running for 5.964)
+2019-01-28 15:13:28.209 - INFO  [nio-8081-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 15:13:28.211 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 15:13:28.223 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2019-01-28 15:13:28.257 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 15:13:28.260 - WARN  [nio-8081-exec-1] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 15:13:28.397 - INFO  [nio-8081-exec-1] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 15:13:28.402 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 15:23:17.884 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 7700 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 15:23:17.896 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 15:23:19.111 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 15:23:19.120 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 15:23:19.171 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-01-28 15:23:19.743 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67167771] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 15:23:20.351 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 15:23:20.374 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:23:20.389 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 15:23:20.390 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 15:23:20.402 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 15:23:20.608 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 15:23:20.609 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2633 ms
+2019-01-28 15:23:21.754 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 15:23:22.416 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 15:23:22.455 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:23:22.472 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 15:23:22.497 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 15:23:22.503 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 5.497 seconds (JVM running for 8.099)
+2019-01-28 15:23:36.448 - INFO  [nio-8081-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 15:23:36.449 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 15:23:36.460 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2019-01-28 15:23:36.504 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 15:23:36.509 - WARN  [nio-8081-exec-1] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 15:23:36.669 - INFO  [nio-8081-exec-1] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 15:23:36.675 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 15:25:21.137 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 8212 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 15:25:21.153 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 15:25:22.148 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 15:25:22.154 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 15:25:22.187 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-01-28 15:25:22.662 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5512975] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 15:25:23.192 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 15:25:23.215 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:25:23.232 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 15:25:23.234 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 15:25:23.244 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 15:25:23.418 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 15:25:23.418 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2182 ms
+2019-01-28 15:25:24.410 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 15:25:24.928 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 15:25:24.979 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 15:25:25.003 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 15:25:25.032 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 15:25:25.037 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 4.69 seconds (JVM running for 7.187)
+2019-01-28 15:25:27.836 - INFO  [nio-8081-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 15:25:27.837 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 15:25:27.853 - INFO  [nio-8081-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 16 ms
+2019-01-28 15:25:27.896 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 15:25:27.900 - WARN  [nio-8081-exec-1] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 15:25:28.081 - INFO  [nio-8081-exec-1] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 15:25:28.087 - INFO  [nio-8081-exec-1] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 17:12:55.245 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 6968 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 17:12:55.255 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 17:12:56.072 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 17:12:56.077 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 17:12:56.107 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-01-28 17:12:56.507 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9930835] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 17:12:56.929 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 17:12:56.946 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 17:12:56.957 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 17:12:56.958 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 17:12:56.968 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 17:12:57.111 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 17:12:57.111 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1792 ms
+2019-01-28 17:12:57.913 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 17:12:58.341 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 17:12:58.372 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 17:12:58.388 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 17:12:58.409 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 17:12:58.414 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 3.835 seconds (JVM running for 6.203)
+2019-01-28 17:13:02.229 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 17:13:02.229 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 17:13:02.242 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Completed initialization in 12 ms
+2019-01-28 17:14:34.293 - INFO  [nio-8081-exec-2] c.z.h.HikariDataSource         : HikariPool-1 - Starting...
+2019-01-28 17:14:34.299 - WARN  [nio-8081-exec-2] c.z.h.u.DriverDataSource       : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2019-01-28 17:14:34.443 - INFO  [nio-8081-exec-2] c.z.h.p.PoolBase               : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-01-28 17:14:34.448 - INFO  [nio-8081-exec-2] c.z.h.HikariDataSource         : HikariPool-1 - Start completed.
+2019-01-28 17:29:23.701 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 2472 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 17:29:23.710 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 17:29:24.503 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 17:29:24.508 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 17:29:24.537 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-01-28 17:29:24.928 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d1ac3440] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 17:29:25.338 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 17:29:25.354 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 17:29:25.365 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 17:29:25.366 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 17:29:25.375 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 17:29:25.507 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 17:29:25.507 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2019-01-28 17:29:26.311 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 17:29:26.718 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 17:29:26.750 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 17:29:26.766 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 17:29:26.787 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 17:29:26.792 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 3.762 seconds (JVM running for 5.932)
+2019-01-28 17:29:32.870 - INFO  [nio-8081-exec-3] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 17:29:32.871 - INFO  [nio-8081-exec-3] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 17:29:32.882 - INFO  [nio-8081-exec-3] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
+2019-01-28 17:40:51.688 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 9136 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 17:40:51.698 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 17:40:52.520 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 17:40:52.525 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 17:40:52.555 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-01-28 17:40:52.962 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$302430d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 17:40:53.368 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 17:40:53.384 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 17:40:53.395 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 17:40:53.396 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 17:40:53.405 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 17:40:53.569 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 17:40:53.570 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1807 ms
+2019-01-28 17:40:54.366 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 17:40:54.766 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 17:40:54.799 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 17:40:54.816 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 17:40:54.838 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 17:40:54.843 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 3.844 seconds (JVM running for 6.126)
+2019-01-28 17:40:58.347 - INFO  [nio-8081-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 17:40:58.347 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 17:40:58.363 - INFO  [nio-8081-exec-2] o.s.w.s.FrameworkServlet       : Completed initialization in 16 ms
+2019-01-28 18:02:37.997 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting ShopApplication on SC-201812201051 with PID 3704 (E:\projects\springboot-shop\target\classes started by Administrator in E:\projects\springboot-shop)
+2019-01-28 18:02:38.016 - INFO  [           main] o.s.b.SpringApplication        : The following profiles are active: dev
+2019-01-28 18:02:38.993 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 18:02:39.000 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 18:02:39.038 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-01-28 18:02:39.490 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c6ec9e87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 18:02:40.120 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8081 (http)
+2019-01-28 18:02:40.141 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8081"]
+2019-01-28 18:02:40.153 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2019-01-28 18:02:40.154 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 18:02:40.166 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;E:\tools\Git\cmd;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;C:\Users\Administrator.SC-201812201051\AppData\Roaming\npm;C:\Users\Administrator.SC-201812201051\AppData\Local\GitHubDesktop\bin;E:\tools\nodejs\;E:\oracle\product\11.2.0\dbhome_1\BIN;E:\tools\apache-maven-3.6.0\bin;.]
+2019-01-28 18:02:40.343 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2019-01-28 18:02:40.343 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2239 ms
+2019-01-28 18:02:41.130 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 18:02:41.539 - WARN  [           main] cationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-01-28 18:02:41.571 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8081"]
+2019-01-28 18:02:41.587 - INFO  [           main] o.a.j.l.DirectJDKLog           : Using a shared selector for servlet write/read
+2019-01-28 18:02:41.608 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-28 18:02:41.613 - INFO  [           main] o.s.b.StartupInfoLogger        : Started ShopApplication in 4.404 seconds (JVM running for 6.64)
+2019-01-28 18:02:44.678 - INFO  [nio-8081-exec-3] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 18:02:44.678 - INFO  [nio-8081-exec-3] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2019-01-28 18:02:44.689 - INFO  [nio-8081-exec-3] o.s.w.s.FrameworkServlet       : Completed initialization in 11 ms
