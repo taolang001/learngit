@@ -1,0 +1,26 @@
+server:
+  port: 8081  #配置端口
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: SCOTT
+    password: 123456
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss #如果使用字符串表示，用这行设置格式
+    timezone: GMT+8 #
+    serialization:
+      write-dates-as-timestamps: false #使用时间戳，使用数值timestamp表示日期
+logging:
+  config: classpath:log4j2.yml
+
+#spring-boot整合mybatis
+mybatis:
+  #config-location: classpath:/mapper/config/mybatisConfig.xml #可以注射掉,没用到该配置文件
+  mapper-locations: classpath:/mapping/*Mapper.xml
