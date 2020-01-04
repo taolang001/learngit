@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: itshop-user
+
+server:
+  port: 1203
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://localhost:3333/eureka/
+
+security:
+  oauth2:
+    resource:
+      id: itshop-user
+      user-info-uri: http://localhost:1303/auth/api/user
+      prefer-token-info: false
+      user:
+        name:
+        password:
