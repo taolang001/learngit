@@ -2,25 +2,32 @@ package com.curise.itshop.auth.config.oauth;
 
 import com.curise.itshop.auth.config.error.MssWebResponseExceptionTranslator;
 import com.curise.itshop.auth.service.MyUserDetailService;
+import com.curise.itshop.common.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;
+import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
+import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
 import org.springframework.security.oauth2.provider.error.WebResponseExceptionTranslator;
 import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
+import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 
 import javax.sql.DataSource;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -67,20 +74,20 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        //clients.withClientDetails(clientDetails());
-        clients.inMemory()
-                .withClient("android")
-                .scopes("read")
-                .secret("android")
-                .authorizedGrantTypes("password", "authorization_code", "refresh_token")
-                .and()
-                .withClient("webapp")
-                .scopes("read")
-                .authorizedGrantTypes("implicit")
-                .and()
-                .withClient("browser")
-                .authorizedGrantTypes("refresh_token", "password")
-                .scopes("read");
+        clients.withClientDetails(clientDetails());
+//        clients.inMemory()
+//                .withClient("android")
+//                .scopes("read")
+//                .secret("android")
+//                .authorizedGrantTypes("password", "authorization_code", "refresh_token")
+//                .and()
+//                .withClient("webapp")
+//                .scopes("read")
+//                .authorizedGrantTypes("implicit")
+//                .and()
+//                .withClient("browser")
+//                .authorizedGrantTypes("refresh_token", "password")
+//                .scopes("read");
     }
     @Bean
     public ClientDetailsService clientDetails() {
@@ -98,8 +105,10 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .userDetailsService(userDetailService)
                 .authenticationManager(authenticationManager);
         endpoints.tokenServices(defaultTokenServices());
+        // 配置自定义JwtAccessToken转换器
+        //endpoints.accessTokenConverter(accessTokenConverter());
         //认证异常翻译
-       // endpoints.exceptionTranslator(webResponseExceptionTranslator());
+        // endpoints.exceptionTranslator(webResponseExceptionTranslator());
     }
 
     /**
@@ -118,4 +127,38 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         tokenServices.setRefreshTokenValiditySeconds(60 * 60 * 24 * 7);
         return tokenServices;
     }
+
+    /**
+     * 自定义jwt的生成方式
+     *
+     * @return JwtAccessTokenConverter
+     */
+    @Primary
+    @Bean
+    public JwtAccessTokenConverter accessTokenConverter() {
+        JwtAccessTokenConverter converter = new JwtAccessTokenConverter() {
+            @Override
+            public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
+                final Map<String, Object> additionalInformation = new HashMap<>();
+                User userModel = (User) authentication.getUserAuthentication().getPrincipal();
+                //把用户的主键uin放进去
+                additionalInformation.put("uin", userModel.getId());
+                ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(additionalInformation);
+                return super.enhance(accessToken, authentication);
+            }
+        };
+        //非对称加密，但jwt长度过长
+//        KeyPair keyPair = new KeyStoreKeyFactory(new ClassPathResource("kevin_key.jks"), "123456".toCharArray())
+//                .getKeyPair("kevin_key");
+//        converter.setKeyPair(keyPair);
+//        return converter;
+        //对称加密
+        converter.setSigningKey("123");
+        return converter;
+
+    }
+
+
+
+
 }
